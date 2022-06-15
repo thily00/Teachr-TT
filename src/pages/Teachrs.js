@@ -36,12 +36,10 @@ function Teachrs() {
           {users.map((user) => {
             return <TeachrCard user={user} key={user.id} />;
           })}
-
-          <TeachrCard />
         </div>
         <div className="Buttons">
-          <button>PRECEDENT</button>
-          <button>SUIVANT</button>
+          <button className="btn_outline">PRECEDENT</button>
+          <button className="btn">SUIVANT</button>
         </div>
       </div>
     </div>

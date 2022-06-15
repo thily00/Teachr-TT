@@ -43,3 +43,27 @@
 .searchBar input:focus-visible {
   outline: none;
 }
+
+.Buttons {
+  display: flex;
+  gap: 60px;
+}
+
+.Buttons .btn_outline {
+  border: none;
+  background: none;
+  font-size: 14px;
+  color: darkslategray;
+}
+
+.Buttons .btn {
+  background-color: white;
+  border: 1px solid #2253a5;
+  color: #2253a5;
+  padding: 10px 32px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
