@@ -7,45 +7,50 @@ import Rating from "./Rating";
 import "../styles/TeachrCard.css";
 
 function TeachrCard({ user }) {
+  console.log(user);
   return (
-    <div className="teachr">
-      <img src={man} className="tearchr__avatar" alt="logo" />
-      <h3 className="tearchr__name">Marie Dardell</h3>
-      <Rating average={5} />
-      <p className="tearchr__hours">20 heures données</p>
+    user && (
+      <div className="teachr">
+        <img src={man} className="tearchr__avatar" alt="logo" />
+        <h3 className="tearchr__name">
+          {user.first_name} {user.last_name}
+        </h3>
+        <Rating average={5} />
+        <p className="tearchr__hours">20 heures données</p>
 
-      <div className="tearchr__informations">
-        <div className="tearchr__information">
-          <img src={mortarboard} alt={mortarboard} />
-          <span>HEC, 1ère année</span>
+        <div className="tearchr__informations">
+          <div className="tearchr__information">
+            <img src={mortarboard} alt={mortarboard} />
+            <span>HEC, 1ère année</span>
+          </div>
+
+          <div className="tearchr__information">
+            <img src={Langue} alt={Langue} />
+            <span>BIllingue</span>
+          </div>
+
+          <div className="tearchr__information">
+            <img src={check} alt={check} />
+            <span>Diplome vérifié</span>
+          </div>
+
+          <div className="tearchr__information">
+            <img src={localisaton} alt={localisaton} />
+            <span>Paris</span>
+          </div>
         </div>
 
-        <div className="tearchr__information">
-          <img src={Langue} alt={Langue} />
-          <span>BIllingue</span>
+        <div className="tearchr__descriptionContainer">
+          <span className="tearchr__descriptionTitle">Description</span>
+          <p className="tearchr__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore
+          </p>
         </div>
 
-        <div className="tearchr__information">
-          <img src={check} alt={check} />
-          <span>Diplome vérifié</span>
-        </div>
-
-        <div className="tearchr__information">
-          <img src={localisaton} alt={localisaton} />
-          <span>Paris</span>
-        </div>
+        <button className="teachr_button">CHOISIR</button>
       </div>
-
-      <div className="tearchr__descriptionContainer">
-        <span className="tearchr__descriptionTitle">Description</span>
-        <p className="tearchr__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore
-        </p>
-      </div>
-
-      <button className="teachr_button">CHOISIR</button>
-    </div>
+    )
   );
 }
 
