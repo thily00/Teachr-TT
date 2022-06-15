@@ -1,0 +1,9 @@
+.Rating {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0 3px;
+}
+
+.star {
+  width: 18px;
+}
