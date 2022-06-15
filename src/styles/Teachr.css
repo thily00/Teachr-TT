@@ -22,9 +22,24 @@
 }
 
 .searchBar {
+  position: relative;
+}
+
+.searchBar label {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.searchBar input {
   border: none;
   background-color: #f3f5fb;
   padding: 10px;
   border-radius: 5px;
   width: 470px;
+}
+
+.searchBar input:focus-visible {
+  outline: none;
 }

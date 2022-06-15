@@ -25,11 +25,12 @@ function Teachrs() {
       <Sidebar />
       <div className="main">
         <h3>En quelle matière avez-vous besoins d'aide ?</h3>
-        <input
-          className="searchBar"
-          type="text"
-          placeholder="SVT, piano, anglais, math..."
-        />
+        <div className="searchBar">
+          <label>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </label>
+          <input type="text" placeholder="SVT, piano, anglais, math..." />
+        </div>
         <h3>Les Teach'rs d'Anglais qui pourraient vous correspondre</h3>
         <div className="teachrs">
           {users.map((user) => {
