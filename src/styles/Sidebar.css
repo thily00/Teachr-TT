@@ -1,0 +1,35 @@
+.sideBar {
+  background-image: url("../assets/images/Reading\ glasses-cuate.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f3f5fb;
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.stepper {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.step {
+  font-size: 20px;
+  color: #436fb3;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stepIcon {
+  border: 1px solid;
+  padding: 0 8px;
+  border-radius: 50%;
+}
