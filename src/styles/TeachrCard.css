@@ -1,0 +1,79 @@
+.teachr {
+  position: relative;
+  width: 280px;
+  height: fit-content;
+  background-color: #f3f9ff;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px #d7cdcd;
+}
+
+.tearchr__avatar {
+  margin-top: -70px;
+  width: 40%;
+  border-radius: 50%;
+  background-color: #9ed3ff;
+}
+
+.tearchr__name {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tearchr__hours {
+  font-size: 10px;
+}
+
+.tearchr__informations {
+  align-self: flex-start;
+  gap: 10px;
+  margin-top: 15px;
+}
+.tearchr__information {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tearchr__information img {
+  width: 18px;
+  height: 18px;
+}
+
+.tearchr__information span {
+  font-size: 14px;
+}
+
+.tearchr__descriptionContainer {
+  margin-top: 15px;
+}
+
+.tearchr__descriptionTitle {
+  font-weight: bold;
+}
+
+.tearchr__description {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.teachr_button {
+  background-color: #2253a5;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: -30px;
+  margin-top: 25px;
+}
