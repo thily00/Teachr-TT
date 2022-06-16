@@ -76,7 +76,7 @@
     margin-top: 10px;
     flex-direction: row;
     border-top: 1px solid #e6dddd;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding-top: 15px;
   }

@@ -4,9 +4,9 @@ import check from "../assets/icons/check.svg";
 import Langue from "../assets/icons/message.svg";
 import localisaton from "../assets/icons/localisaton.svg";
 import Rating from "./Rating";
-import "../styles/TeachrCard.css";
+import "../styles/TeacherCard.css";
 
-function TeachrCard({ user }) {
+function TeacherCard({ user }) {
   return (
     user && (
       <div className="teachr">
@@ -53,4 +53,4 @@ function TeachrCard({ user }) {
   );
 }
 
-export default TeachrCard;
+export default TeacherCard;
