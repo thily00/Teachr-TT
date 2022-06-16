@@ -7,7 +7,9 @@ function SideBar() {
       <img src={logo} className="logo" alt="logo" />
       <div className="stepper">
         <div className="step">
-          <span className="stepIcon">1</span>
+          <span>
+            <i className="fa fa-check-circle" aria-hidden="true"></i>
+          </span>
           <span style={{ color: "black" }}>Votre demande</span>
         </div>
         <div className="step">

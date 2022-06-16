@@ -31,8 +31,75 @@
   gap: 10px;
 }
 
+.step span i {
+  color: #14fe14;
+  font-size: 30px;
+}
+
 .stepIcon {
   border: 1px solid;
   padding: 0 8px;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .sideBar {
+    width: 200px;
+  }
+  .step {
+    font-size: 14px;
+  }
+  .step span i {
+    color: #14fe14;
+    font-size: 28px;
+  }
+  .stepIcon {
+    padding: 3px 8px;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .sideBar {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: fit-content;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    width: 20%;
+  }
+  .stepper {
+    margin-top: 10px;
+    flex-direction: row;
+    border-top: 1px solid #e6dddd;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+  }
+
+  .step {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .step span i {
+    color: #14fe14;
+    font-size: 24px;
+  }
+
+  .stepIcon {
+    border: 1px solid;
+    padding: 2px 8px;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .teachrs {
+    margin-left: 20px !important;
+  }
 }

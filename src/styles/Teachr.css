@@ -75,3 +75,33 @@
   font-size: 14px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .main {
+    margin-left: 200px;
+  }
+  .main h4 {
+    font-size: 14px;
+  }
+  .searchBar input {
+    width: 310px;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .Container {
+    flex-direction: column;
+  }
+  .main {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main h4 {
+    font-size: 12px;
+  }
+  .searchBar input {
+    width: 250px;
+  }
+}
