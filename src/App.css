@@ -82,6 +82,7 @@
   }
   .main h4 {
     font-size: 14px;
+    text-align: center;
   }
   .searchBar input {
     width: 310px;
