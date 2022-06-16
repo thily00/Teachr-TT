@@ -12,9 +12,9 @@ function TeachrCard({ user }) {
     user && (
       <div className="teachr">
         <img src={man} className="tearchr__avatar" alt="logo" />
-        <h3 className="tearchr__name">
+        <h5 className="tearchr__name">
           {user.first_name} {user.last_name}
-        </h3>
+        </h5>
         <Rating average={5} />
         <p className="tearchr__hours">20 heures données</p>
 

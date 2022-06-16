@@ -1,26 +1,27 @@
 .teachr {
   position: relative;
   width: 280px;
+  height: fit-content;
   background-color: #f3f9ff;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 60px 15px 35px;
+  padding: 15px;
   align-items: center;
   border-radius: 15px;
   box-shadow: 0px 4px 4px 0px #d7cdcd;
 }
 
 .tearchr__avatar {
-  position: absolute;
+  margin-top: -70px;
   width: 40%;
   border-radius: 50%;
   background-color: #9ed3ff;
-  top: -15%;
 }
 
 .tearchr__name {
   text-align: center;
+  margin-top: 20px;
 }
 
 .tearchr__hours {
@@ -40,8 +41,8 @@
 }
 
 .tearchr__information img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .tearchr__information span {
@@ -72,6 +73,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  position: absolute;
-  bottom: -4%;
+  cursor: pointer;
+  margin-bottom: -30px;
+  margin-top: 25px;
 }

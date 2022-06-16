@@ -1,4 +1,6 @@
 .sideBar {
+  position: fixed;
+  z-index: 1;
   background-image: url("../assets/images/Reading\ glasses-cuate.png");
   background-position: bottom;
   background-size: contain;

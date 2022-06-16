@@ -4,3 +4,19 @@
   box-sizing: border-box;
   font-family: system-ui, "Segoe UI", sans-serif;
 }
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(210, 206, 206);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(192, 180, 180);
+}
