@@ -10,6 +10,7 @@
   gap: 10px;
   color: #2253a5;
   margin-left: 250px;
+  padding-top: 20px;
   overflow: hidden;
 }
 
@@ -27,9 +28,11 @@
   position: relative;
 }
 
-.searchBar label {
+.searchBar button {
   position: absolute;
-  top: 8px;
+  border: none;
+  background: none;
+  top: 10px;
   right: 8px;
   cursor: pointer;
 }
@@ -39,7 +42,7 @@
   background-color: #f3f5fb;
   padding: 10px;
   border-radius: 5px;
-  width: 470px;
+  width: 410px;
 }
 
 .searchBar input:focus-visible {
@@ -49,7 +52,7 @@
 .Buttons {
   display: flex;
   gap: 60px;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 .Buttons .btn_outline {

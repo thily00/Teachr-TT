@@ -7,7 +7,6 @@ import Rating from "./Rating";
 import "../styles/TeachrCard.css";
 
 function TeachrCard({ user }) {
-  console.log(user);
   return (
     user && (
       <div className="teachr">
